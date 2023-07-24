@@ -26,8 +26,9 @@ async function getBooking(userId: number) {
   return booking;
 }
 
+async function postBooking(userId: number, roomId: number)
 
 export default {
   getBooking,
-
+  postBooking
 };
